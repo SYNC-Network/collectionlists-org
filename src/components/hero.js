@@ -24,7 +24,7 @@ const Hero = styled.section`
     letter-spacing: 0.002em;
     color: #1f1f1f;
     margin: 0;
-    font-family: 'MatterSQ-Medium';
+    font-family: 'Montserrat';
   }
 
   .icon {
