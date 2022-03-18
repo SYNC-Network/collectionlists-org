@@ -77,14 +77,14 @@ export default function Header() {
         Project
       </span>
 
-      <p className="title">An Ethereum token list standard.</p>
+      <p className="title">An NFT Collection list standard.</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
-        Token Lists is a community-led initiative to improve discoverability, reputation and trust in ERC20 token lists
+        Collection Lists is a community-led initiative to improve discoverability, reputation and trust in NFT Collection lists
         in a manner that is inclusive, transparent, and decentralized.
       </p>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="https://syncnetwork.io/blog/token-lists/">
-        {'->'} Why token lists?
+      <HoverLink target="_blank" rel="noopener noreferrer" href="https://syncnetwork.io/blog/collection-lists/">
+        {'->'} Why Collection lists?
       </HoverLink>
       <HoverLink
         target="_blank"
