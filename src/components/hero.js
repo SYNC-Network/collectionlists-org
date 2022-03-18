@@ -37,12 +37,12 @@ const Hero = styled.section`
 
   a {
     color: #131313;
-    font-family: 'MatterSQ-SemiBold';
+    font-family: 'Poppins';
   }
 
-  .uniswap {
-    color: #ff007a;
-    font-family: 'MatterSQ-Regular';
+  .syncnetwork {
+    color: 1982c8#;
+    font-family: 'Poppins';
   }
 
   @media screen and (max-width: 960px) {
@@ -71,8 +71,8 @@ export default function Header() {
     <Hero>
       <span style={{ marginBottom: '1rem' }}>
         A{' '}
-        <a href="https://uniswap.org/" className="uniswap">
-          Uniswap
+        <a href="https://syncnetwork.io/" className="syncnetwork">
+          SYNC Network
         </a>{' '}
         Project
       </span>
@@ -83,17 +83,17 @@ export default function Header() {
         Token Lists is a community-led initiative to improve discoverability, reputation and trust in ERC20 token lists
         in a manner that is inclusive, transparent, and decentralized.
       </p>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
+      <HoverLink target="_blank" rel="noopener noreferrer" href="https://syncnetwork.io/blog/token-lists/">
         {'->'} Why token lists?
       </HoverLink>
       <HoverLink
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/Uniswap/token-lists#authoring-token-lists"
+        href="https://github.com/SYNC-Network/collection-lists#authoring-token-lists"
       >
         {'->'} Make your own
       </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.tokenlists.org/">
+      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.collectionlists.org/">
         {'->'} Community
       </HoverLink>
     </Hero>

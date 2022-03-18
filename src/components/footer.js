@@ -28,9 +28,9 @@ export default function Footer() {
       <span>A Uniswap Project</span>
       <Nav>
         <a href="https://uniswap.org/docs/v2/">Docs</a>
-        <a href="https://github.com/uniswap">GitHub</a>
-        <a href="https://discord.gg/XErMcTq">Discord</a>
-        <a href="https://app.uniswap.org">App</a>
+        <a href="https://github.com/SYNC-Network">GitHub</a>
+        <a href="https://discord.gg/sync">Discord</a>
+        <a href="https://app.syncbond.com">App</a>
       </Nav>
     </StyledFooter>
   )

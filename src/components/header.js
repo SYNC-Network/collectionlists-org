@@ -22,7 +22,7 @@ const StyledHeader = styled.header`
   }
   .title {
     font-size: 1.25rem;
-    font-family: 'MatterSQ-SemiBold';
+    font-family: 'Poppins';
   }
 
   @media screen and (max-width: 640px) {
@@ -70,14 +70,14 @@ export default function Header({ back }) {
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.tokenlists.org/">
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.collectionlists.org/">
           Community
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="hide-small"
-          href="https://uniswap.org/blog/token-lists/"
+          href="https://syncnetwork.io/blog/token-lists/"
         >
           Why lists?
         </a>
@@ -85,7 +85,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Uniswap/token-lists#authoring-token-lists"
+          href="https://github.com/SYNC-Network/token-lists#authoring-token-lists"
         >
           Make a list
         </a>
@@ -94,7 +94,7 @@ export default function Header({ back }) {
           className="button"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Uniswap/token-lists"
+          href="https://github.com/SYNC-Network/token-lists"
         >
           <img
             style={{
