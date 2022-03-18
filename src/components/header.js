@@ -77,7 +77,7 @@ export default function Header({ back }) {
           target="_blank"
           rel="noopener noreferrer"
           className="hide-small"
-          href="https://syncnetwork.io/blog/token-lists/"
+          href="https://syncnetwork.io/blog/collection-lists/"
         >
           Why lists?
         </a>
@@ -85,7 +85,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/SYNC-Network/token-lists#authoring-token-lists"
+          href="https://github.com/SYNC-Network/collection-lists#authoring-token-lists"
         >
           Make a list
         </a>
@@ -94,7 +94,7 @@ export default function Header({ back }) {
           className="button"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/SYNC-Network/token-lists"
+          href="https://github.com/SYNC-Network/collection-lists"
         >
           <img
             style={{
