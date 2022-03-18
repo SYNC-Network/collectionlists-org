@@ -41,7 +41,7 @@ const Hero = styled.section`
   }
 
   .syncnetwork {
-    color: 1982c8#;
+    color: #1982c8;
     font-family: 'Poppins';
   }
 

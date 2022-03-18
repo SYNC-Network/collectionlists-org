@@ -1,4 +1,6 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Poppins:wght@500&display=swap');
+
+/* @font-face {
   font-family: 'MatterSQ-Medium';
   src: local('MatterSQ-Medium'),
     url(./fonts/MatterSQ-Medium.woff2) format('woff2');
@@ -14,27 +16,27 @@
   font-family: 'MatterSQ-SemiBold';
   src: local('MatterSQ-SemiBold'),
     url(./fonts/MatterSQ-SemiBold.woff2) format('woff2');
-}
+} */
 
 html {
-  font-family: 'MatterSQ-Regular', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'MatterSQ-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'MatterSQ-Medium', sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0.003em;
 }
 
 body {
   margin: 0;
-  font-family: 'MatterSQ-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'Poppins','MatterSQ-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
   font-weight: 500;
