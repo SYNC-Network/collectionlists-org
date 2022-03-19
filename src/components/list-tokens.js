@@ -79,15 +79,15 @@ export const ListItem = memo(function ListItem({ collection }) {
       <TokenInfo>
         <TokenIcon
           className="token-icon"
-          alt={`${token.name} token icon`}
+          alt={`${collections.name} token icon`}
           src={
-            !token.logoURI
+            !collections.logoURI
               ? `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${toChecksumAddress(
-                  token.address
+                  collections.address
                 )}/logo.png`
-              : token.logoURI.startsWith('ipfs')
-              ? `https://ipfs.io/ipfs/${token.logoURI.split('//')[1]}`
-              : token.logoURI
+              : collections.logoURI.startsWith('ipfs')
+              ? `https://ipfs.io/ipfs/${collections.logoURI.split('//')[1]}`
+              : collections.logoURI
           }
           onError={(e) => {
             e.target.className = 'replace'
@@ -96,25 +96,25 @@ export const ListItem = memo(function ListItem({ collection }) {
         />
 
         <span className="hide-small">
-          <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(token.address)}`}>
-            {token.name}
+          <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(collections.address)}`}>
+            {collections.name}
           </a>
         </span>
       </TokenInfo>
-      <span>{token.symbol}</span>
+      <span>{collections.symbol}</span>
       <TokenTagWrapper className="hide-small">
         {token?.tags?.length > 0 && (
           <>
-            <TokenTag>{token.tags[0].toUpperCase()}</TokenTag>
-            {token.tags.length > 1 && <TokenTag>...</TokenTag>}
+            <TokenTag>{collections.tags[0].toUpperCase()}</TokenTag>
+            {collections.tags.length > 1 && <TokenTag>...</TokenTag>}
           </>
         )}
       </TokenTagWrapper>
       <TokenAddress>
-        <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(token.address)}`}>
-          {`${toChecksumAddress(token.address)?.slice(0, 6)}...${toChecksumAddress(token.address)?.slice(38, 42)}`}
+        <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(collections.address)}`}>
+          {`${toChecksumAddress(collections.address)?.slice(0, 6)}...${toChecksumAddress(collections.address)?.slice(38, 42)}`}
         </a>
-        <CopyHelper toCopy={token.address} />
+        <CopyHelper toCopy={collections.address} />
       </TokenAddress>
     </TokenItem>
   )
