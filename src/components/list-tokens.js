@@ -73,7 +73,7 @@ const TokenAddress = styled.span`
   align-items: center;
 `
 
-export const ListItem = memo(function ListItem({ token }) {
+export const ListItem = memo(function ListItem({ collection }) {
   return (
     <TokenItem>
       <TokenInfo>
