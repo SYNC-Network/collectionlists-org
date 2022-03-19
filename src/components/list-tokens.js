@@ -101,7 +101,7 @@ export const ListItem = memo(function ListItem({ collection }) {
           </a>
         </span>
       </TokenInfo>
-      <span>{collections.symbol}</span>
+      // <span>{collections.symbol}</span>
       <TokenTagWrapper className="hide-small">
         {token?.tags?.length > 0 && (
           <>
@@ -182,7 +182,7 @@ export default function Tokens({ tokens }) {
       <TokenWrapper>
         <ListTitle>
           <p className="hide-small">Name</p>
-          <p className="hide-small">Symbol</p>
+          // <p className="hide-small">Symbol</p>
           <p className="hide-small">Tags</p>
 
           <p className="hide-small" style={{ textAlign: 'right' }}>
