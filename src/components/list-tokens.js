@@ -10,7 +10,7 @@ const TokenItem = styled.section`
   display: grid;
   max-width: 960px;
   grid-gap: 1rem;
-  grid-template-columns: 1fr 128px 96px 148px;
+  grid-template-columns: 1fr 128px  148px;
   margin-bottom: 1rem;
   a {
     color: #131313;
@@ -79,15 +79,15 @@ export const ListItem = memo(function ListItem({ collection }) {
       <TokenInfo>
         <TokenIcon
           className="token-icon"
-          alt={`${collections.name} token icon`}
+          alt={`${collection.name} token icon`}
           src={
-            !collections.logoURI
+            !collection.logoURI
               ? `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${toChecksumAddress(
-                  collections.address
+                  collection.address
                 )}/logo.png`
-              : collections.logoURI.startsWith('ipfs')
-              ? `https://ipfs.io/ipfs/${collections.logoURI.split('//')[1]}`
-              : collections.logoURI
+              : collection.logoURI.startsWith('ipfs')
+              ? `https://ipfs.io/ipfs/${collection.logoURI.split('//')[1]}`
+              : collection.logoURI
           }
           onError={(e) => {
             e.target.className = 'replace'
@@ -96,25 +96,25 @@ export const ListItem = memo(function ListItem({ collection }) {
         />
 
         <span className="hide-small">
-          <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(collections.address)}`}>
-            {collections.name}
+          <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(collection.address)}`}>
+            {collection.name}
           </a>
         </span>
       </TokenInfo>
-      // <span>{collections.symbol}</span>
+
       <TokenTagWrapper className="hide-small">
-        {token?.tags?.length > 0 && (
+        {collection?.tags?.length > 0 && (
           <>
-            <TokenTag>{collections.tags[0].toUpperCase()}</TokenTag>
-            {collections.tags.length > 1 && <TokenTag>...</TokenTag>}
+            <TokenTag>{collection.tags[0].toUpperCase()}</TokenTag>
+            {collection.tags.length > 1 && <TokenTag>...</TokenTag>}
           </>
         )}
       </TokenTagWrapper>
       <TokenAddress>
-        <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(collections.address)}`}>
-          {`${toChecksumAddress(collections.address)?.slice(0, 6)}...${toChecksumAddress(collections.address)?.slice(38, 42)}`}
+        <a style={{ textAlign: 'right' }} href={`https://etherscan.io/address/${toChecksumAddress(collection.address)}`}>
+          {`${toChecksumAddress(collection.address)?.slice(0, 6)}...${toChecksumAddress(collection.address)?.slice(38, 42)}`}
         </a>
-        <CopyHelper toCopy={collections.address} />
+        <CopyHelper toCopy={collection.address} />
       </TokenAddress>
     </TokenItem>
   )
@@ -148,7 +148,7 @@ const ListTitle = styled.div`
   display: grid;
   max-width: 960px;
   grid-gap: 1rem;
-  grid-template-columns: 1fr 128px 96px 148px;
+  grid-template-columns: 1fr 128px  148px;
   margin-bottom: 1rem;
   @media screen and (max-width: 414px) {
     display: none;
@@ -164,7 +164,7 @@ const ListHeader = styled.div`
   }
 `
 
-export default function Tokens({ tokens }) {
+export default function Collections({ collections }) {
   const [value, setValue] = useState('')
 
   function handleChange(e) {
@@ -175,14 +175,14 @@ export default function Tokens({ tokens }) {
   return (
     <ListWrapper>
       <ListHeader className="flex-between" style>
-        <Title>List Tokens</Title>
+        <Title>List Collections</Title>
         <Search handleChange={handleChange} value={value} setValue={setValue} />
       </ListHeader>
 
       <TokenWrapper>
         <ListTitle>
           <p className="hide-small">Name</p>
-          // <p className="hide-small">Symbol</p>
+
           <p className="hide-small">Tags</p>
 
           <p className="hide-small" style={{ textAlign: 'right' }}>
@@ -192,9 +192,9 @@ export default function Tokens({ tokens }) {
 
         <FilterResults
           value={value}
-          data={tokens}
+          data={collections}
           renderResults={(results) =>
-            results.length === 0 ? 'None found!' : results.map((data, i) => <ListItem key={i} token={data} />)
+            results.length === 0 ? 'None found!' : results.map((data, i) => <ListItem key={i} collection={data} />)
           }
         />
       </TokenWrapper>

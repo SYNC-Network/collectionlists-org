@@ -2,7 +2,7 @@ import React, { useEffect, useMemo } from 'react'
 import styled from 'styled-components'
 import Header from '../components/header'
 import Info from '../components/list-info'
-import Tokens from '../components/list-tokens'
+import Collections from '../components/list-tokens'
 import { useMultiFetch } from '../utils/useMultiFetch'
 
 import { useLocation } from 'react-router-dom'
@@ -69,7 +69,7 @@ function List() {
       ) : (
         <Content>
           <Info listID={listID} list={list} />
-          <Tokens tokens={list.tokens} />
+          <Collections collections={list.collections} />
         </Content>
       )}
     </div>

@@ -70,7 +70,7 @@ export default function Card({ id, list, name }) {
   const logoURL = getLogoURL(list?.logoURI ?? null)
 
   return (
-    <StyledCard to={`/token-list?url=${id}`} className="card">
+    <StyledCard to={`/collection-list?url=${id}`} className="card">
       <img
         alt="icon"
         src={logoURL ?? 'https://raw.githubusercontent.com/feathericons/feather/master/icons/help-circle.svg'}
@@ -82,7 +82,7 @@ export default function Card({ id, list, name }) {
       <section>
         <NameText>{actualName}</NameText>
         <TokensListed>
-          {list?.tokens?.length > 0 ? `${list.tokens.length} tokens` : list === null ? 'Error' : 'Loading...'}
+          {list?.collections?.length > 0 ? `${list.collections.length} collections` : list === null ? 'Error' : 'Loading...'}
         </TokensListed>
       </section>
     </StyledCard>
