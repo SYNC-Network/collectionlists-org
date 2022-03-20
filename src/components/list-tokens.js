@@ -30,7 +30,7 @@ const TokenItem = styled.section`
 `
 const TokenInfo = styled.span`
   display: grid;
-  grid-template-columns: 16px 1fr;
+  grid-template-columns: 35px 1fr;
   grid-gap: 1rem;
   height: fit-content;
   align-items: center;
@@ -41,10 +41,10 @@ const TokenInfo = styled.span`
 `
 
 const TokenIcon = styled.img`
-  width: 16px;
+  width: 40px;
   border-radius: 32px;
   background-color: white;
-  height: 16px;
+  height: 40px;
 `
 const TokenTagWrapper = styled.div`
   display: flex;
