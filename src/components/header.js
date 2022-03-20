@@ -70,14 +70,14 @@ export default function Header({ back }) {
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.collectionlists.org/">
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://discord.gg/sync/">
           Community
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="hide-small"
-          href="https://syncnetwork.io/blog/collection-lists/"
+          href="/why"
         >
           Why lists?
         </a>

@@ -14,16 +14,16 @@ function Home() {
       <div className="home-content">
         <div>
           <section className="hero">
-            <small style={{ marginTop: '4rem', marginBottom: '1rem' }}>A Uniswap project</small>
-            <p className="title">Why tokens lists?</p>
+            <small style={{ marginTop: '4rem', marginBottom: '1rem' }}>A SYNC Network project</small>
+            <p className="title">Why Collection lists?</p>
 
             <p className="description" id="why-lists">
-              Token Lists aim to solve the problem of the Ethereum community creating, discovering and maintaining lists
-              of reputable tokens in a way that is inclusive, transparent, decentralized and open source.
+              Collection Lists aim to solve the problem of the community creating, discovering and maintaining lists
+              of reputable NFT Projects in a way that is inclusive, transparent, decentralized and open source.
             </p>
             <p>
-              As the Ethereum ecosystem continues to evolve and mature, we are continuing to see sustained exponential
-              growth in the number of ERC-20 tokens being created and used by participants of the network.
+              As the community continues to evolve and mature, we are continuing to see sustained exponential
+              growth in the number of NFT Collections being created and used by participants of the network.
             </p>
             <p>
               This is an exciting success of permissionless innovation enabled by the open nature of blockchain
@@ -34,42 +34,42 @@ function Home() {
             </p>
             <h2>The tradeoffs of permissionless innovation</h2>
             <p>
-              The permissionless nature of Ethereum and the ease of creating tokens also comes with tradeoffs. Since
-              there are no central gatekeepers, it becomes up to the users and projects in the space to establish trust
+              The permissionless nature of Ethereum and the ease of creating tokens and NFTs also comes with tradeoffs. Since
+              there are no central gatekeepers, it is up to the users and projects in the space to establish trust
               and reputation, as well as perform actions of moderation. How can users tell credible projects from scams?
             </p>
             <p>
-              Uniswap is a token marketplace that faces the issues of token reputation directly. Until now, the Uniswap
-              team took on the responsibility of curating the tokens that show up in the Uniswap Interface. While this
-              was important to get the project off the ground and protect the users of Uniswap, having the Uniswap team
-              curate tokens that show up in the interface was never considered a viable long-term strategy.
+              <a href="https://neonrain.io">NeonRain</a> is a marketplace that faces the issues of token reputation directly.
+              The responsibility of curating the tokens that show up in the NeonRain Interface will be decenteralized and up
+              to the broader community. This is important to protect the users of NeonRain, as no single entity is responsible
+              for curating the NFT Collections that show up in the interface.
             </p>
             <p>
               The ability to moderate token inclusion carries too much power and responsibility in a single gatekeeper.
-              That power residing solely in the Uniswap team was against the ethos of the protocol and the broader DeFi
-              ecosystem.
+              That power residing solely on any team is against the ethos of the broader DeFi ecosystem as a whole.
             </p>
-            <h2>Enter Token lists</h2>
+            <h2>Enter Collection lists</h2>
             <p>
-              The goal of Token Lists is to enable trust to emerge around reputable tokens in a way that is aligned with
+              The goal of Collection Lists is to enable trust to emerge around reputable NFT Projects in a way that is aligned with
               the values of decentralization.
             </p>
             <p>
               The Ethereum community is known for solving problems as an ecosystem. Today exist numerous reputable
-              projects who are responsible for maintaining trustworthy lists of token projects. Until now, there hasn’t
-              been a standard, interoperable way for those projects to codify those lists and share them with the
+              projects who are responsible for maintaining trustworthy lists of NFT projects. Until now, there hasn’t
+              been a standard, interoperable way for those NFT projects to codify those lists and share them with the
               broader community.
             </p>
             <p>
-              Token Lists is a new json schema standard that enables exactly this. Projects can encode lists of
-              reputable tokens in a machine readable way. Anyone can make a list. These lists can then be imported into
-              the Uniswap interface.
+              Collection Lists is a modified form of the Uniswap ERC20 token json schema standard that enables exactly this.
+              Built specifically for the needs of NFT projects. Projects can encode lists of reputable tokens in a machine readable way.
+              Anyone can make a list. These lists can then be imported into the NeonRain interface.
             </p>
             <p>
-              We imagine Token Lists being an important building block for the Ethereum ecosystem to self-govern
-              reputation around tokens and hope to see token lists used in other projects, as well as an ecosystem of
+              We imagine Collection Lists being an important building block for the Ethereum ecosystem to self-govern
+              reputation around NFT collections and hope to see collection lists used in other projects, as well as an ecosystem of
               tools, dashboards, and discussion forums to emerge around them.
             </p>
+            <p>SYNC Network would like to thank Hayden Adams and the Uniswap team for their Hard work.</p>
           </section>
         </div>
       </div>
