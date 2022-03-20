@@ -69,7 +69,7 @@ function Home() {
               reputation around NFT collections and hope to see collection lists used in other projects, as well as an ecosystem of
               tools, dashboards, and discussion forums to emerge around them.
             </p>
-            <p>SYNC Network would like to thank Hayden Adams and the Uniswap team for their Hard work.</p>
+            <p>SYNC Network would like to thank Hayden Adams and the Uniswap team for their hard work.</p>
           </section>
         </div>
       </div>
