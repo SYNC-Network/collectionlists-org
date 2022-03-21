@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Hero = styled.section`
@@ -83,9 +84,11 @@ export default function Header() {
         Collection Lists is a community-led initiative to improve discoverability, reputation and trust in NFT Collection lists
         in a manner that is inclusive, transparent, and decentralized.
       </p>
-      <HoverLink href="/why">
-        {'->'} Why Collection lists?
-      </HoverLink>
+
+      <Link className="hide-small" to="/why">
+      Why lists?
+      </Link>
+
       <HoverLink
         target="_blank"
         rel="noopener noreferrer"
@@ -93,7 +96,11 @@ export default function Header() {
       >
         {'->'} Make your own
       </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.collectionlists.org/">
+      <HoverLink
+        target="_blank"
+        rel="noopener noreferrer"
+        href="http://community.collectionlists.org/"
+      >
         {'->'} Community
       </HoverLink>
     </Hero>
