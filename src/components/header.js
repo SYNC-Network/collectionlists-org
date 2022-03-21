@@ -74,7 +74,6 @@ export default function Header({ back }) {
           Community
         </a>
         <a
-          target="_blank"
           rel=""
           className="hide-small"
           href="/why"
