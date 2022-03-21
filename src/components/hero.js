@@ -86,7 +86,7 @@ export default function Header() {
       </p>
 
       <Link className="hide-small" to="/why">
-      Why lists?
+      {'->'} Why lists?
       </Link>
 
       <HoverLink
