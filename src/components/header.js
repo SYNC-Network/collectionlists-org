@@ -75,7 +75,7 @@ export default function Header({ back }) {
         </a>
         <a
           target="_blank"
-          rel="noopener noreferrer"
+          rel=""
           className="hide-small"
           href="/why"
         >
