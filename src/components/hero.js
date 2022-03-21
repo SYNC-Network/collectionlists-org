@@ -83,7 +83,7 @@ export default function Header() {
         Collection Lists is a community-led initiative to improve discoverability, reputation and trust in NFT Collection lists
         in a manner that is inclusive, transparent, and decentralized.
       </p>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="/why">
+      <HoverLink href="/why">
         {'->'} Why Collection lists?
       </HoverLink>
       <HoverLink

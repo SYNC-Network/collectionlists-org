@@ -73,13 +73,10 @@ export default function Header({ back }) {
         <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://discord.gg/sync/">
           Community
         </a>
-        <a
-          rel=""
-          className="hide-small"
-          href="/why"
-        >
-          Why lists?
-        </a>
+        
+        <Link className="hide-small" to="/why">
+        Why lists?
+        </Link>
         <a
           className="hide-small"
           target="_blank"
