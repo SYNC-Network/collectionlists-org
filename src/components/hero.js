@@ -99,7 +99,7 @@ export default function Header() {
       <HoverLink
         target="_blank"
         rel="noopener noreferrer"
-        href="http://community.collectionlists.org/"
+        href="https://discord.gg/sync"
       >
         {'->'} Community
       </HoverLink>

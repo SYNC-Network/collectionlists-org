@@ -70,10 +70,10 @@ export default function Header({ back }) {
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://discord.gg/sync/">
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="https://discord.gg/sync">
           Community
         </a>
-        
+
         <Link className="hide-small" to="/why">
         Why lists?
         </Link>
