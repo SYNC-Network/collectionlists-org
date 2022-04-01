@@ -10,6 +10,7 @@ const Hero = styled.section`
   position: sticky;
   top: 10rem;
   height: fit-content;
+  padding:50px;
 
   p {
     text-align: left;
