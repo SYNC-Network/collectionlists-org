@@ -81,7 +81,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/SYNC-Network/collection-lists#authoring-token-lists"
+          href="https://github.com/SYNC-Network/collection-lists#authoring-collection-lists"
         >
           Make a list
         </a>
