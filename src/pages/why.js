@@ -15,7 +15,7 @@ function Home() {
         <div>
           <section className="hero">
             <small style={{ marginTop: '4rem', marginBottom: '1rem' }}>A SYNC Network project</small>
-            <p className="title">Why Collection lists?</p>
+            <h1 className="title">Why Collection lists?</h1>
 
             <p className="description" id="why-lists">
               Collection Lists aim to solve the problem of the community creating, discovering and maintaining lists
