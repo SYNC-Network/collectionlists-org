@@ -79,7 +79,7 @@ export default function Header() {
         Project
       </span>
 
-      <p className="title">An NFT Collection list standard.</p>
+      <p className="title">The NFT Collection list standard.</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
         Collection Lists is a community-led initiative to improve discoverability, reputation and trust in NFT Collection lists
