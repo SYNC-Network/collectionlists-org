@@ -3,6 +3,10 @@
     "name": "RainDrops",
     "homepage": "https://drops.neonrain.io"
   },
+  "https://api.neonrain.io/api/nfts/list/artist": {
+    "name": "RainDrops Featured Artists",
+    "homepage": "https://drops.neonrain.io"
+  },
   "https://freshdrops.io/list": {
     "name": "Freshdrops.io",
     "homepage": "https://freshdrops.io"
