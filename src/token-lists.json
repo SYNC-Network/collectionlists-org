@@ -4,8 +4,16 @@
     "homepage": "https://drops.neonrain.io"
   },
   "https://api.neonrain.io/api/nfts/list/artist": {
-    "name": "RainDrops Featured Artists",
+    "name": "NeonRain Featured Artists",
     "homepage": "https://drops.neonrain.io"
+  },
+    "https://api.neonrain.io/api/nfts/list/gold": {
+    "name": "NeonRain Gold List",
+    "homepage": "https://neonrain.io"
+  },
+    "https://api.neonrain.io/api/nfts/list/neon": {
+    "name": "NeonRain Neon List",
+    "homepage": "https://neonrain.io"
   },
   "https://freshdrops.io/list": {
     "name": "Freshdrops.io",
